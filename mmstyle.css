@@ -1,18 +1,26 @@
 body {
     background-color: #dbdac5;
-        width: 100%;
-        margin-left: 0px;
-        margin-top: 0px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+body header {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .contatos-rodolfo-wanderley {
     position: relative;
-    width: 1280px;
+    width: 940px;
     margin: 0 auto;
 }
 
 .contato-rodolfo {
-    position: absolute;
+    position: relative;
     width: 300px;
     top: 110px;
     left: 0;
@@ -22,7 +30,7 @@ body {
     position: absolute;
     width: 280px;
     top: 110px;
-    right: 0;
+    right: 4%;
 }
 
 .whatsapp-rodolfo {
@@ -59,43 +67,58 @@ body {
 
 .contato-escritorio {
     position: relative;
-    width: 1280px;
+    width: 940px;
     margin: 0 auto;
     text-align: center;
-    top: 10cm;
+    top: 8cm;
+    box-sizing: border-box;
+    border: 0px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1s;
 }
 
 .contato-escritorio p {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+
+.contato-escritorio:hover {
+    background: #e2c5c5;
+    font-size: 24px;
+    color: #631616;
+    border: 5px solid #FEFEFE;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .whatsapp-escritorio {
     display: inline-block;
     position: absolute;
+    margin-right: 40%;
     width: 7.5%;
-    top: 46px;
-    left: 520px;
+   
 }
 
 .email-escritorio {
     display: inline-block;
-    position: absolute;
-    width: 5%;
-    top: 48px;
-    right: 520px;
+    position: relative;
+    margin-left: 40%;
+    width: 4.5%;
 }
 
 .webmail {
-    position: absolute;
-    bottom: 10px;
-    left: 44%;
-    width: 240px; 
+    position: relative;
+    margin: 0 auto;
+    width: 15%; 
     text-align: center;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 0px solid #000000;
     border-radius: 10px;
     transition: 1s;
+    top: 10cm;
 }
 
 .webmail:hover {
@@ -103,6 +126,10 @@ body {
     cursor: pointer;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+}
 
 
 
