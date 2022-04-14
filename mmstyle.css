@@ -39,6 +39,11 @@ body header {
     top: 0px;
     left: 303px;
     width: 12%;
+    transition: 1s;
+}
+
+.whatsapp-rodolfo:hover {
+    width: 22%;
 }
 
 .whatsapp-wanderley {
@@ -47,6 +52,11 @@ body header {
     top: 0px;
     left: 303px;
     width: 13%;
+    transition: 1s;
+}
+
+.whatsapp-wanderley:hover {
+    width: 23%;
 }
 
 .email-rodolfo {
@@ -55,6 +65,11 @@ body header {
     top: 26px;
     left: 310px;
     width: 8%;
+    transition: 1s;
+}
+
+.email-rodolfo:hover {
+    width: 18%;
 }
 
 .email-wanderley {
@@ -63,6 +78,11 @@ body header {
     top: 26px;
     left: 310px;
     width: 8.5%;
+    transition: 1s;
+}
+
+.email-wanderley:hover {
+    width: 18.5%;
 }
 
 .contato-escritorio {
@@ -99,7 +119,6 @@ body header {
     position: absolute;
     margin-right: 40%;
     width: 7.5%;
-   
 }
 
 .email-escritorio {
@@ -107,7 +126,9 @@ body header {
     position: relative;
     margin-left: 40%;
     width: 4.5%;
+    
 }
+
 
 .webmail {
     position: relative;
@@ -130,8 +151,4 @@ footer {
     position: fixed;
     bottom: 0;
 }
-
-
-
-
 
