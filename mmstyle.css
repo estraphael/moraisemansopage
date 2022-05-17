@@ -90,7 +90,7 @@ body header {
     width: 940px;
     margin: 0 auto;
     text-align: center;
-    top: 8cm;
+    top: 5cm;
     box-sizing: border-box;
     border: 0px solid #000000;
     border-radius: 10px;
@@ -139,7 +139,7 @@ body header {
     border: 0px solid #000000;
     border-radius: 10px;
     transition: 1s;
-    top: 10cm;
+    top: 6cm;
 }
 
 .webmail:hover {
